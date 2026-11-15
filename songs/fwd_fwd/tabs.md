@@ -1,6 +1,6 @@
 # fwd, fwd! — Tabs
 
-*Quelle: blackminded-Dropbox (`nebensachen/fwd,fwd refrain`) — unverändert.*
+*Quelle: blackminded-Dropbox (`nebensachen/fwd,fwd refrain`)*
 
 ## Refrain
 

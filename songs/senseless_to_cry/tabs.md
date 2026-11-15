@@ -1,6 +1,6 @@
 # senseless to cry — Tabs
 
-*Quelle: alte blackminded-Website (Archiv, `alt/blackminded/hoeren1/texte/tabs/stc.txt`) — unverändert.*
+*Quelle: alte blackminded-Website (Archiv, `alt/blackminded/hoeren1/texte/tabs/stc.txt`)*
 
 ```
 Tabbed by

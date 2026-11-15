@@ -1,6 +1,6 @@
 # a destroyed universe
 
-*Quelle: alte blackminded-Website (Archiv, `alt/texte/du.htm`) — Originaltext, unverändert.*
+*Quelle: alte blackminded-Website (Archiv, `alt/texte/du.htm`)*
 
 ```
 The story of life

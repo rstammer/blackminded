@@ -7,7 +7,7 @@ Ein früher blackminded-Song, der nicht mehr auf der heutigen Website steht. Ges
 | Was | Wo |
 |---|---|
 | Songtext | `lyrics.md` (alte blackminded-Website) |
-| Tabs | `tabs.md` (von der alten Website, „tabbed by Robbe“) |
+| Tabs | `tabs.md` (alte Website) |
 | Original-Audio (`recordings/`) | offen |
 | Tempo, Tonart, Form | offen |
 | Akkorde (`chords.md`) | offen |

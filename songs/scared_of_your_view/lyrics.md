@@ -1,6 +1,6 @@
 # scared of your view
 
-*Quelle: blackminded.de/texte/scaredofyourview.htm — Originaltext, unverändert.*
+*Quelle: blackminded.de/texte/scaredofyourview.htm*
 
 ```
 You tried to hug my youth

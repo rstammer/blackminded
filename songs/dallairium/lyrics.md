@@ -1,6 +1,6 @@
 # dallairium
 
-*Quelle: alte blackminded-Website (Archiv, `texte/dallairium.htm`) — Originaltext, unverändert.*
+*Quelle: alte blackminded-Website (Archiv, `texte/dallairium.htm`)*
 
 ```
 The more you know,less you wanna tell,

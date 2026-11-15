@@ -7,10 +7,10 @@ so geschrieben.
 
 | Was | Wo |
 |---|---|
-| Aufnahme | `original_recording.wav` — von Robins Desktop (`01 Traveller.wav`), 44,1 kHz Stereo, 4:47. Per `.gitignore` nicht im Repo |
+| Aufnahme | `original_recording.wav` — 44,1 kHz Stereo, 4:47. Per `.gitignore` nicht im Repo |
 | Songtext | `lyrics.md` (von blackminded.de/texte/traveller.htm) |
 | Original-MP3 auf der Website | **gibt es nicht.** `music.htm` verlinkt nur fünf Audios (gi, rsjp, soyv, tf, wcah); `disclaimer.php?SONG=traveller` fällt auf `blackminded - kaputt` zurück |
-| Gitarren-Tabs | offen — **kommen von Robin**, werden nicht abgeleitet (siehe `../rs_jp/NOTES.md`) |
+| Gitarren-Tabs | offen |
 
 ## Gemessen
 
@@ -238,7 +238,7 @@ Mängel der alten Fassung stehen, gleich richtig machen:
 
 ## Offen
 
-- [ ] **Tabs von Robin** — danach lassen sich die Stimmen direkt daraus setzen
+- [ ] **Tabs** — danach lassen sich die Stimmen direkt daraus setzen
 - [x] Strophe = C-Block, `| C  Am | Em |`
 - [ ] Zuordnung der übrigen Blöcke zu Refrain / Bridge; G-Block prüfen
 - [ ] Prüfen, ob 132 BPM in Sonic Pi trägt oder ob die Notendichte — wie bei

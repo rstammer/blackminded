@@ -7,8 +7,8 @@ Ein späterer blackminded-Song: Studioaufnahme 2008, auf den Setlists 2013 als
 
 | Was | Wo |
 |---|---|
-| Songtext | `lyrics.md` — von Robin aus dem Gehör, unvollständig |
-| Form | `chords.md` (Robin) |
+| Songtext | `lyrics.md` (unvollständig) |
+| Form | `chords.md` |
 | Tabs | `tabs.md` — Refrain-Riff aus der blackminded-Dropbox |
 | Original-Audio (`recordings/`) | Studio-MP3 von 2008, Live-Mitschnitte 2013 (Dropbox, nicht im Repo) |
 | Tempo, Tonart, Akkorde | offen |

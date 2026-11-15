@@ -2,7 +2,7 @@
 
 Einer der ersten blackminded-Songs, uraufgeführt bei "Rock im Loch" in Gandow.
 
-*Quelle: alte blackminded-Website (Archiv, `alt/texte/betweenthelines.php`) — Originaltext, unverändert.*
+*Quelle: alte blackminded-Website (Archiv, `alt/texte/betweenthelines.php`)*
 
 ```
 You don`t understand, the message I`ve sent

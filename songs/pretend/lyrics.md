@@ -1,6 +1,6 @@
 # pretend
 
-*Quelle: alte blackminded-Website (Archiv, `alt/texte/pretend.php`) — Originaltext, unverändert.*
+*Quelle: alte blackminded-Website (Archiv, `alt/texte/pretend.php`)*
 
 ```
 Like a calm machine

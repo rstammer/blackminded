@@ -1,6 +1,6 @@
 # giving in
 
-*Quelle: blackminded.de/texte/givingin.htm — Originaltext, unverändert.*
+*Quelle: blackminded.de/texte/givingin.htm*
 
 ```
 hide in your plan

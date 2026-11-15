@@ -1,6 +1,6 @@
 # senseless to cry
 
-*Quelle: blackminded.de/texte/senselesstocry.htm — Originaltext, unverändert.*
+*Quelle: blackminded.de/texte/senselesstocry.htm*
 
 ```
 Why I`m lying here?

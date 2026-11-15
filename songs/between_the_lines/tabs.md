@@ -1,6 +1,6 @@
 # between the lines — Tabs
 
-*Quelle: alte blackminded-Website (Archiv, `alt/blackminded/hoeren1/texte/tabs/btl.txt`) — unverändert.*
+*Quelle: alte blackminded-Website (Archiv, `alt/blackminded/hoeren1/texte/tabs/btl.txt`)*
 
 ```
 =========================

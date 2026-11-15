@@ -1,6 +1,6 @@
 # when clouds are hangin'
 
-*Quelle: blackminded.de/texte/whencloudsarehangin.htm — Originaltext, unverändert.*
+*Quelle: blackminded.de/texte/whencloudsarehangin.htm*
 
 ```
 It's so sad, we conquer this world

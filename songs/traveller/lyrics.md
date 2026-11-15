@@ -1,7 +1,6 @@
 # traveller
 
-*Quelle: blackminded.de/texte/traveller.htm — Originaltext, unverändert
-(Seite ist ISO-8859-1, hier nach UTF-8 gewandelt).*
+*Quelle: blackminded.de/texte/traveller.htm*
 
 ```
 be my traveller

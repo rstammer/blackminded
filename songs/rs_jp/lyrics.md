@@ -1,6 +1,6 @@
 # rs:jp
 
-*Quelle: blackminded.de/texte/rsjp.htm — Originaltext, unverändert.*
+*Quelle: blackminded.de/texte/rsjp.htm*
 
 ```
 It's easy to get relations

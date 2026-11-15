@@ -1,6 +1,6 @@
 # pink-glassed prison
 
-*Quelle: alte blackminded-Website (Archiv, `alt/texte/pink-glassedprison.php`) — Originaltext, unverändert.*
+*Quelle: alte blackminded-Website (Archiv, `alt/texte/pink-glassedprison.php`)*
 
 ```
 Come play again

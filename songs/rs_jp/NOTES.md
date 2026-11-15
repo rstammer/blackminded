@@ -12,7 +12,7 @@
 
 ## Bestand
 
-`original_2015.rb` — die Sonic-Pi-Fassung von 2015, unverändert übernommen aus
+`original_2015.rb` — die Sonic-Pi-Fassung von 2015, übernommen aus
 [euruband/sonic-pi-examples](https://github.com/euruband/sonic-pi-examples).
 Selbstbeschreibung im Kopf der Datei: *„theme interpretation of a 'conventional'
 rock song"*. Aufnahme davon:
@@ -148,6 +148,5 @@ das wäre live eine große Vereinfachung. Beim Hören darauf achten.
 - [ ] Gitarrenpart festhalten. Offen, in welcher Form. Eine aus
       `monolithic_pattern` errechnete Tab-Fassung war falsch — auf der Gitarre
       wird anders gegriffen, als die reine Umrechnung der Noten nahelegt.
-      Muss von Robin kommen, nicht abgeleitet werden. Später.
 - [ ] Songtext — liegt auf blackminded.de unter `texte/`
 - [ ] Sektionsplan: Intro / Strophe / Refrain / Bridge / Schluss

@@ -1,6 +1,6 @@
 # tedium fever and the nxp
 
-*Quelle: blackminded.de/texte/tediumfeverandthenxp.htm — Originaltext, unverändert.*
+*Quelle: blackminded.de/texte/tediumfeverandthenxp.htm*
 
 ```
 I love this,  I can`t, I won`t

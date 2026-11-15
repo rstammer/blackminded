@@ -7,7 +7,7 @@ Ein früher blackminded-Song, der nicht mehr auf der heutigen Website steht. Tex
 | Was | Wo |
 |---|---|
 | Songtext | `lyrics.md` (alte blackminded-Website) |
-| Tabs (`tabs.md`) | offen — **kommen von Robin** |
+| Tabs (`tabs.md`) | offen |
 | Original-Audio (`recordings/`) | offen |
 | Tempo, Tonart, Form | offen |
 | Akkorde (`chords.md`) | offen |

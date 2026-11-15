@@ -1,6 +1,6 @@
 # free will and farewell
 
-*Quelle: blackminded.de/texte/freewillandfarewell.htm — Originaltext, unverändert.*
+*Quelle: blackminded.de/texte/freewillandfarewell.htm*
 
 ```
 As I try to take it again

@@ -1,6 +1,6 @@
 # rotor
 
-*Quelle: blackminded.de/texte/rotor.htm — Originaltext, unverändert.*
+*Quelle: blackminded.de/texte/rotor.htm*
 
 ```
 A diplomatic compromise is what a nation could bring to fall

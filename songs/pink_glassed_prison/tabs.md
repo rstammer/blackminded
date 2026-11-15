@@ -1,6 +1,6 @@
 # pink-glassed prison — Tabs
 
-*Quelle: alte blackminded-Website (Archiv, `alt/blackminded/hoeren1/texte/tabs/pgp.txt`) — unverändert.*
+*Quelle: alte blackminded-Website (Archiv, `alt/blackminded/hoeren1/texte/tabs/pgp.txt`)*
 
 ```
 =========================

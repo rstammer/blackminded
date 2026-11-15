@@ -1,6 +1,6 @@
 # zero
 
-*Quelle: alte blackminded-Website (Archiv, `texte/zero.htm`) — Originaltext, unverändert.*
+*Quelle: alte blackminded-Website (Archiv, `texte/zero.htm`)*
 
 ```
 This is, how I feel

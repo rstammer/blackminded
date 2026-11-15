@@ -1,6 +1,6 @@
 # pretend — Tabs
 
-*Quelle: alte blackminded-Website (Archiv, `alt/blackminded/hoeren1/texte/tabs/pretend.txt`) — unverändert.*
+*Quelle: alte blackminded-Website (Archiv, `alt/blackminded/hoeren1/texte/tabs/pretend.txt`)*
 
 ```
 =========================
