@@ -1,0 +1,26 @@
+# Audio, video and DAW projects stay out of the repo: they are large and
+# Git cannot diff them. Each song's recordings/ explains in a README what
+# lies where.
+*.wav
+*.w64
+*.aif
+*.aiff
+*.flac
+*.mp3
+*.m4a
+*.aac
+*.ogg
+*.opus
+*.caf
+*.mid
+*.midi
+*.mp4
+*.mov
+*.zip
+*.aup3
+ardour_projects/
+*.logicx/
+*.band/
+*.als
+
+.DS_Store

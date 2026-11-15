@@ -1,0 +1,158 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+# Sends Sonic Pi code to the running Sonic Pi server.
+#
+#   bin/play songs/rs_jp/original_2015.rb
+#   bin/play -e 'play 72'
+#   bin/play --stop
+#   bin/play --record songs/rs_jp/original_2015.rb -o take.wav
+#
+# Talks OSC to the server directly, with no gem dependencies. Sonic Pi has to be
+# running — the app brings the server with it — but its editor is not used.
+#
+# Why not the spx gem: it is written against Sonic Pi 4.5 and breaks twice on 5.0.
+# It reads the port and token by grepping ~/.sonic-pi/log/spider.log for "Token:"
+# and ":server_port=>", and Sonic Pi 5 writes neither line. And it sends to
+# "localhost", which resolves to ::1 first on macOS, while the server binds
+# 127.0.0.1 only — so the packets vanish without an error.
+#
+# Port and token change on every Sonic Pi restart, so they are read fresh from
+# the spider-server process arguments on each run.
+
+require "socket"
+
+HOST = "127.0.0.1" # not "localhost": the server is IPv4-only, see above
+
+module OSC
+  module_function
+
+  # Everything is built as binary. Packed integers contain bytes above 127, and
+  # song files may contain non-ASCII characters — mixing those with a UTF-8
+  # string raises Encoding::CompatibilityError.
+  def pad(str)
+    terminated = str.b + "\0".b
+    terminated + ("\0".b * ((4 - terminated.bytesize % 4) % 4))
+  end
+
+  # Builds an OSC message. Only the two argument types Sonic Pi needs here.
+  def message(path, *args)
+    tags = +","
+    body = +"".b
+
+    args.each do |arg|
+      case arg
+      when Integer
+        tags << "i"
+        body << [arg].pack("N")
+      when String
+        tags << "s"
+        body << pad(arg)
+      else
+        raise ArgumentError, "unsupported OSC argument: #{arg.class}"
+      end
+    end
+
+    pad(path) + pad(tags) + body
+  end
+end
+
+class SonicPi
+  def self.running
+    line = `ps -Ao args=`.lines.find do |l|
+      l.include?("spider-server.rb") && !l.include?("ps -Ao")
+    end
+    return nil unless line
+
+    # spider-server.rb -u <server> <gui> <scsynth> <scsynth_send> <cues> <token>
+    args = line.split("spider-server.rb").last.to_s.split
+    return nil if args.size < 7
+
+    new(args[1].to_i, args[6].to_i)
+  end
+
+  attr_reader :port, :token
+
+  def initialize(port, token)
+    @port = port
+    @token = token
+    @socket = UDPSocket.new
+  end
+
+  def send_osc(path, *args)
+    @socket.send(OSC.message(path, @token, *args), 0, HOST, @port)
+  end
+
+  def run(code) = send_osc("/run-code", code)
+
+  def stop = send_osc("/stop-all-jobs")
+
+  def record(code, output)
+    send_osc("/start-recording")
+    sleep 0.3
+    run(code)
+    yield if block_given?
+    send_osc("/stop-recording")
+    sleep 0.3
+    send_osc("/save-recording", File.expand_path(output))
+    sleep 1.5
+  end
+end
+
+def server
+  SonicPi.running || abort(<<~MSG)
+    Sonic Pi läuft nicht.
+
+      open -a "Sonic Pi"
+
+    Nach dem Start einen Moment warten, bis der Server oben ist.
+  MSG
+end
+
+def read_code(file)
+  abort "Datei nicht gefunden: #{file}" unless File.exist?(file)
+  File.read(file)
+end
+
+case ARGV.first
+when nil, "-h", "--help"
+  puts <<~USAGE
+    bin/play <datei>                  Sonic-Pi-Datei abspielen
+    bin/play -e <code>                Code direkt abspielen
+    bin/play --stop                   alle laufenden Jobs stoppen
+    bin/play --status                 Server-Status zeigen
+    bin/play --record <datei> -o <wav>  aufnehmen (Dauer mit -t, Standard 30 s)
+  USAGE
+
+when "--status"
+  sp = SonicPi.running
+  if sp
+    puts "Sonic Pi läuft — Port #{sp.port}, Token #{sp.token}"
+  else
+    puts "Sonic Pi läuft nicht."
+    exit 1
+  end
+
+when "--stop"
+  server.stop
+  puts "gestoppt"
+
+when "-e"
+  code = ARGV[1] or abort "Kein Code angegeben."
+  server.run(code)
+  puts "läuft"
+
+when "--record"
+  file = ARGV[1] or abort "Keine Datei angegeben."
+  output = ARGV[ARGV.index("-o") + 1] if ARGV.include?("-o")
+  output ||= "take.wav"
+  seconds = ARGV.include?("-t") ? ARGV[ARGV.index("-t") + 1].to_f : 30.0
+
+  puts "nehme #{seconds} s auf → #{output}"
+  server.record(read_code(file), output) { sleep seconds }
+  puts File.exist?(output) ? "fertig: #{File.size(output)} bytes" : "keine Datei entstanden"
+
+else
+  server.run(read_code(ARGV.first))
+  puts "läuft — stoppen mit: bin/play --stop"
+end
