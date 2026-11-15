@@ -31,25 +31,23 @@ Website gibt es noch unter [blackminded.de](https://blackminded.de).
 
 ## Songs
 
-| Song | Ordner | Stand |
-|---|---|---|
-| a destroyed universe | `songs/a_destroyed_universe/` | Text |
-| between the lines | `songs/between_the_lines/` | Text, Tabs |
-| d-tune | `songs/d_tune/` | nur von einer Setlist bekannt |
-| dallairium | `songs/dallairium/` | Text |
-| free will and farewell | `songs/free_will_and_farewell/` | Text |
-| fwd, fwd! | `songs/fwd_fwd/` | Text (unvollständig), Form, Refrain-Tab |
-| giving in | `songs/giving_in/` | Text |
-| pink-glassed prison | `songs/pink_glassed_prison/` | Text, Tabs |
-| pretend | `songs/pretend/` | Text, Tabs |
-| rotor | `songs/rotor/` | Text |
-| rs:jp | `songs/rs_jp/` | Text, Sonic-Pi-Fassung von 2015 (`original_2015.rb`) |
-| scared of your view | `songs/scared_of_your_view/` | Text |
-| senseless to cry | `songs/senseless_to_cry/` | Text, Tabs |
-| tedium fever and the nxp | `songs/tedium_fever_and_the_nxp/` | Text |
-| traveller | `songs/traveller/` | Text, Messwerte (132 BPM, e-Moll, `\| C Am \| Em \|`), Play-Along der Strophe in fünf Varianten |
-| when clouds are hangin' | `songs/when_clouds_are_hangin/` | Text |
-| zero | `songs/zero/` | Text |
+- [a destroyed universe](songs/a_destroyed_universe/)
+- [between the lines](songs/between_the_lines/)
+- [d-tune](songs/d_tune/)
+- [dallairium](songs/dallairium/)
+- [free will and farewell](songs/free_will_and_farewell/)
+- [fwd, fwd!](songs/fwd_fwd/)
+- [giving in](songs/giving_in/)
+- [pink-glassed prison](songs/pink_glassed_prison/)
+- [pretend](songs/pretend/)
+- [rotor](songs/rotor/)
+- [rs:jp](songs/rs_jp/)
+- [scared of your view](songs/scared_of_your_view/)
+- [senseless to cry](songs/senseless_to_cry/)
+- [tedium fever and the nxp](songs/tedium_fever_and_the_nxp/)
+- [traveller](songs/traveller/)
+- [when clouds are hangin'](songs/when_clouds_are_hangin/)
+- [zero](songs/zero/)
 
 Titel so, wie die Band sie geschrieben hat. Texte und Tabs stammen von
 blackminded.de und der alten Website, unverändert.
