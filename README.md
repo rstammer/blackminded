@@ -1,33 +1,18 @@
 # blackminded
 
-A new dawn in a new era. Tribute to blackminded themes. Persisting the music in
-a digital world and set the foundation for something new.
+All these stars fade away!
 
-Die Songs der Band blackminded, digital festgehalten: als Texte, Noten, Akkorde,
-Tabs und Skripte, dazu alles, was sich über sie herausfinden lässt.
+## Es war einmal: Die Band.
 
-## Die Band
+blackminded - das war der Name der Band, die ich gemeinsam mit meinen Freunden **Basti** (Bass und Keys) und **Andi** (Schlagzeug) in Perleberg in der Prignitz unterhielt.
 
-blackminded waren **Robin** (Gitarre, Gesang), **Basti** (Bass) und **Andi**
-(Schlagzeug) aus Perleberg in der Prignitz. Die drei Freunde fingen 2003 ohne
-Erfahrung mit Gitarre, Stick und Rockzirkus an zu experimentieren und fanden mit
-der Zeit ihren eigenen Stil: alternative Rockmusik mit intensiven Riffs und
-grungigen Sounds.
+Mit wenig Erfahrung, aber viel Leidenschaft fingen wir ca 2003 an zu experimentieren und fanden mit der Zeit unseren eigenen Stil alternativer Rockmusik
 
-- **19.09.2003** — erster Auftritt im KlimBim in Wittenberge, mit Nexus und Trivial.
-- **2004 und 2005** — zweimal Publikumssieger beim Bandcontest *Prignitz Rockt*
-  in der Bänghalle Perleberg, 2004 außerdem Sieger des SOS-Talente-Festivals in
-  Wittenberge.
-- **2005–2007** — Konzerte in der ganzen Prignitz und darüber hinaus, von
-  Parchim und Neuruppin bis St. Peter-Ording, auf Open Airs wie Rock im Moor,
-  Kuhstock und Krankenschwesterrock(t).
-- **11.03.2007** — die EP **„Patches In The Sky“** erscheint: when clouds are
-  hangin', tedium fever & the nxp, giving in, scared of your view, rs:jp.
-- **2013** — nach zehn Jahren zwei Abschlusskonzerte: Krankenschwesterrock(t) in
-  Haaren (10.05.) und Rock im Moor in Boberow (03.08.).
+Bis zu unseren Abschlusskonzerten im Jahre 2013 blicken wir auf unzählige schöne Momente rund um die zahlreichen Konzerte und Proberaumsession zurück, die unsere Zeit prägten. 2013 war erstmal Schluss mit aktiver Zeit für blackminded, das Erwachsenenleben in verschiedenen Städten ließ damals zu wenig Raum für ein produktives Weiter-so zu.
 
-Alle bekannten Auftritte stehen in [`auftritte.csv`](auftritte.csv). Die alte
-Website gibt es noch unter [blackminded.de](https://blackminded.de).
+### What's this? 
+
+Dieses repo enthält maschinenlesbares Material, um die Songs der Band digital festzuhalten: Texte, Tabs, Akkorde, Strukturen und mehr. Es ist in natürlicher Weise unvollständig und wird von Zeit zu Zeit nachgepflegt. 
 
 ## Songs
 
@@ -48,39 +33,3 @@ Website gibt es noch unter [blackminded.de](https://blackminded.de).
 - [traveller](songs/traveller/)
 - [when clouds are hangin'](songs/when_clouds_are_hangin/)
 - [zero](songs/zero/)
-
-Titel so, wie die Band sie geschrieben hat. Texte und Tabs stammen von
-blackminded.de und der alten Website, unverändert.
-
-## Abspielen
-
-Sonic Pi ist das Hilfsmittel, mit dem festgehaltene Akkorde, Riffs und Formen
-hörbar werden. Gebraucht wird nur Sonic Pi 5 und Ruby:
-
-```bash
-brew install --cask sonic-pi
-```
-
-Abgespielt wird über `bin/play`, ein Skript im Repo, das direkt mit Sonic Pis
-OSC-Server spricht. **Die Sonic-Pi-App muss laufen**, sie bringt den Server mit.
-Geschrieben wird im eigenen Editor, nicht in der Sonic-Pi-IDE.
-
-```bash
-open -a "Sonic Pi"
-
-bin/play songs/rs_jp/song.rb     # abspielen
-bin/play --stop                  # alles stoppen
-bin/play --status                # läuft der Server?
-```
-
-## Struktur
-
-```
-songs/<song>/     ein Ordner je Song, alle gleich aufgebaut:
-                  NOTES.md, lyrics.md, chords.md, tabs.md, recordings/, sonic_pi/
-lib/              Gemeinsames: Drumkits, Synth-Presets, Helfer
-bin/              Wrapper zum Abspielen
-auftritte.csv     Alle Auftritte von blackminded, wird nach und nach ergänzt
-```
-
-Aufnahmen (WAV, MP3 und Co.) liegen nicht im Repo, sie sind zu groß.
