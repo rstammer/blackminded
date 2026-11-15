@@ -5,7 +5,7 @@
 # blocks assigned to verse, chorus and bridge.
 #
 # 132 BPM and E minor are measured from original_recording.wav. The progression
-# C - A minor - E minor comes from Robin, who played it. The two agree: the bass
+# C - A minor - E minor comes from playing it on the guitar. The two agree: the bass
 # band of the recording reads C and A for two beats each, then a whole bar of E.
 #
 # use_bpm has to sit above the in_thread blocks: it is thread-local, and threads

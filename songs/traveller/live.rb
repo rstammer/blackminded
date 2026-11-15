@@ -21,7 +21,7 @@
 #
 # THE CHORUS IS NOT CONFIRMED. Its | G | Em | comes from the bass-band
 # measurement of the recording (NOTES.md, the G-Block at 1:49 and 3:09) and has
-# never been checked against Robin. It is here so there is something to switch
+# never been checked against the guitar. It is here so there is something to switch
 # to. The verse is the real one.
 
 use_bpm 132

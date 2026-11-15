@@ -94,7 +94,7 @@ Selbstähnlichkeit (80 s). Die große Einheit ist also `G-Block (16) + C-Block (
 
 ### Die Strophe: C – Am – Em (bestätigt)
 
-**Der C-Block ist die Strophe.** Robin spielt sie und hat den Lauf genannt:
+**Der C-Block ist die Strophe.** Auf der Gitarre gespielt ist der Lauf
 `C – a-Moll – e-Moll`. Die Messung sagt unabhängig dasselbe — im Bassband liest
 sich der Block achtmal als `C … A … E … E` je halbem Takt. Auf Zählzeiten:
 
@@ -106,10 +106,10 @@ Eine **Zwei-Takt-Schleife**: C und a-Moll je zwei Schläge, dann ein ganzer Takt
 e-Moll. Die 16 Takte des Blocks sind acht Durchläufe davon.
 
 Der G-Block liest sich analog als Zwei-Takt-Schleife `| G | Em |` — ein ganzer
-Takt G, ein ganzer Takt e-Moll. **Noch nicht von Robin bestätigt.**
+Takt G, ein ganzer Takt e-Moll. **Noch nicht auf der Gitarre bestätigt.**
 
 **Welcher Block Refrain und welcher Bridge ist, sagt die Messung nicht** — das
-muss Robin zuordnen. Der Text gibt die Reihenfolge `V1 – C – V2 – C – B – V3 – C
+ist noch zuzuordnen. Der Text gibt die Reihenfolge `V1 – C – V2 – C – B – V3 – C
 – B` vor; wie sie auf die Takte oben fällt, ist offen.
 
 Das `C ↔ B` in Takt 9–16 ist die auffälligste Bewegung des Songs (♭VI–V in
@@ -153,7 +153,7 @@ anderen zu treffen.
 
 #### Was am Funk schon abgehört ist
 
-Robin hat mitgespielt und dabei drei Sachen entschieden — sie stehen so in
+Beim Mitspielen sind drei Sachen entschieden worden — sie stehen so in
 `verse_funk.rb`:
 
 - **Der Beat bleibt.** Erste Rückmeldung war „der Drumbeat gefällt mir schon
@@ -164,7 +164,7 @@ Robin hat mitgespielt und dabei drei Sachen entschieden — sie stehen so in
   ihre Erweiterungen; der Kontrast ist Absicht.
   **Achtung:** die Septime steckte auch im Bass, auf dem vorletzten Sechzehntel
   des Em-Takts. Nur das Voicing zu ändern hätte sie stehen lassen.
-- **Das e-Moll ist der Griff, den Robin spielt.** Zweiter Bund auf A- und
+- **Das e-Moll ist der Griff, der auf der Gitarre gespielt wird.** Zweiter Bund auf A- und
   D-Saite, Rest offen, alle sechs Saiten angeschlagen: `E2 H2 E3 G3 H3 E4`.
   Drei E und zwei H über zwei Oktaven — **die Dopplungen sind die Schwere.**
   Vorher standen dort drei Töne im Diskant, und der Akkord fiel in sich zusammen.

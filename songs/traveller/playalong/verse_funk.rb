@@ -17,8 +17,7 @@
 #
 # The E minor is the exception: it stays a plain triad, no seventh and no ninth —
 # both made it float. It sits an octave below the other two, so the two bars fall
-# away at the end rather than lifting. All of that is Robin's call after hearing
-# it.
+# away at the end rather than lifting. All of that was decided by ear.
 #
 # The funk is in the placement, not the notes. Everything runs on a sixteenth
 # grid where the hits deliberately avoid the beat: the comp stabs on the "a" of
@@ -33,7 +32,7 @@ use_bpm 132
 # than derived, so any single chord can be reshaped without touching the others.
 # [bass root, voicing, beats, how long it rings, how loud, how bright]
 #
-# The E minor is the open guitar shape Robin actually plays: second fret on the
+# The E minor is the open guitar shape actually played: second fret on the
 # A and D strings, the rest open, all six strings struck. Three E's and two B's
 # across two octaves — the doubling is where the weight comes from, and leaving
 # it out was what made the chord fall flat. It also rings far longer than the
