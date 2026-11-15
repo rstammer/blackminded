@@ -6,7 +6,7 @@ All these stars fade away!
 
 blackminded - das war der Name der Band, die ich gemeinsam mit meinen Freunden **Basti** (Bass und Keys) und **Andi** (Schlagzeug) in Perleberg in der Prignitz unterhielt.
 
-Mit wenig Erfahrung, aber viel Leidenschaft fingen wir ca 2003 an zu experimentieren und fanden mit der Zeit unseren eigenen Stil alternativer Rockmusik
+Mit wenig Erfahrung (aber viel Leidenschaft 🤓) fingen wir ca 2003 an zu experimentieren und fanden mit der Zeit unseren eigenen Stil alternativer Rockmusik.
 
 Bis zu unseren Abschlusskonzerten im Jahre 2013 blicken wir auf unzählige schöne Momente rund um die zahlreichen Konzerte und Proberaumsession zurück, die unsere Zeit prägten. 2013 war erstmal Schluss mit aktiver Zeit für blackminded, das Erwachsenenleben in verschiedenen Städten ließ damals zu wenig Raum für ein produktives Weiter-so zu.
 
